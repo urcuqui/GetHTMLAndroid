@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" >GetHtmlAndroid
+    </string>
+    <string name="action_settings" >GetHtmlAndroid
+    </string>
+    <string name="HTML" >Codigo HTML
+    </string>
+    <string name="nameButton" >Get
+    </string>
+    <string name="title" >Get HTML
+    </string>
+    <string name="TextCenter" >Introduzca la URL
+    </string>
+
+</resources>

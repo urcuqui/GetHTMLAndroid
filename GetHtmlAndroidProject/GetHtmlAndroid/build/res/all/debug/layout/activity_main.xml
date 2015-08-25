@@ -1,0 +1,44 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".MainActivity"
+                android:background="@drawable/fondo">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/title"
+            android:textColor="#727d98"/>
+    <EditText  android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:padding="10dp"
+               android:id="@+id/txtEnlace"
+               android:hint="@string/TextCenter"
+               android:textColor="#e8ffcd"></EditText>
+
+
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/editText"
+              android:layout_gravity="left|center_vertical"
+              android:layout_weight="1"
+              android:gravity="top|center"
+
+              android:hint="@string/HTML"
+              android:textColor="#ddd7ff"></TextView>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nameButton"
+            android:id="@+id/buttonSetup"
+
+            android:layout_gravity="left|center_vertical"/>
+
+
+</TableLayout>
